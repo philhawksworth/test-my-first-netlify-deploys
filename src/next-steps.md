@@ -72,6 +72,19 @@ Try adding the following HTML to a page on this site. After deploying your chang
 </form>
 ```
 
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+
 ### 4. Define redirect rules
 
 The Netlify ADN supports redirect rules. That means that your redirect rules don't run on some origin server (there _is_ no origin server!). Instead, they run directly on the edge nodes located closest to your site users. This makes them blazing fast. But thankfully, not complicated to define.

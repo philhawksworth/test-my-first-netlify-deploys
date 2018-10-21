@@ -12,7 +12,7 @@ header:
 Once you've deployed your own copy of this site, here are five things to try as you explore Netlify,
 
 
-### 1. Deploy some changes
+### 1. Deploy some changes 👍
 
 This site is generated with a static site generator. And now that you have deployed it, Netlify has set up an [automated continuous deployment system](https://www.netlify.com/docs/continuous-deployment/) for you. To deploy changes, all you need to do is push your changes to this site's git repository.
 
@@ -36,7 +36,7 @@ module.exports = {
 You can watch the progress of your deploys in the [Netlify Admin for this site](https://app.netlify.com/sites/{{details.sitename}}/deploys). From there you'll also be able to instantly [roll back](https://www.netlify.com/docs/versioning-and-rollbacks/) to any previous deploy if you wanted to.
 
 
-### 2. Create a preview build
+### 2. Create a preview build 👍
 
 When you push changes to your master branch (as you did above), Netlify builds and deploys those right away. What if you'd like to stage those changes in a preview? With Netlify's preview builds, the what the effects of a pull request will be.
 
